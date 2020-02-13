@@ -1,0 +1,81 @@
+body {
+  text-align: center;
+  background-size: fit;
+  background-repeat: repeat;
+  font-family: courier;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns:auto;
+  grid-template-rows: 3, 100px;
+  /*STUDENT NOTE: I used 5 rows instead of three because the with only three,
+  the layout had it so the left sidebar was too much smaller than the pictured
+  layout */
+}
+
+header, aside {
+  color: 	 #330000;
+  padding: 20px;
+  grid-gap: none;
+  border-style: solid;
+  border-size: 10px;
+  border-color: #7b1e5c;
+}
+ img {
+   width: 150px;
+   height: auto;
+ }
+
+h3, h1, h4{
+  background: rgba(179, 217, 255, 0.3)
+}
+.head {
+  grid-row: 1;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+.greetings {
+  padding: 10px;
+  grid-row: 2;
+  grid-column: 1;
+  text-align: center;
+}
+
+.people {
+  padding: 10px;
+  grid-row: 2;
+  grid-column: 2;
+  text-align: center;
+}
+
+.places {
+  padding: 10px;
+  grid-row: 2;
+  grid-column: 3;
+  text-align: center;
+}
+
+.greetings, .people, .places {
+    line-height: 200%;
+}
+.button1 {
+  background-color:#ff0000;
+  color: white;
+}
+
+.button2 {
+  background-color: #cc0000;
+  color: white;
+}
+
+.button3 {
+  background-color:  #990000;
+  color: white;
+}
+
+.button4 {
+  background-color: #660000;
+  color: white;
+}

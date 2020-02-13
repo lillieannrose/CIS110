@@ -1,0 +1,25 @@
+
+body {
+	background-color: #DC7633;
+	margin: 0 15%;
+	font-family: Courier New;
+	}
+	
+	br {
+	   display: block;
+	   margin: 1px 0;
+	}
+h1 {
+	text-align: center;
+	font-family: Courier New;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 1px solid;
+	color: #9B59B6;
+	margin-top: 10px;
+}
+
+h2 {
+	color: #117864;
+	font-size: 1em;
+}
